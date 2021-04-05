@@ -117,7 +117,7 @@ class Ui_Initial(object):
     def reTranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.workoutLabel.setText(_translate("MainWindow", htmlf([("Workout", "ib")])))
+        self.workoutLabel.setText(_translate("MainWindow", htmlf([("Virtual", 4), ("Workout", "ib")])))
         self.startBtn.setText(_translate("MainWindow", "START"))
         self.setNumberLabel.setText(_translate("MainWindow", "SETS"))
         self.jumpingJacksLabel.setText(_translate("MainWindow", "Jumping Jacks"))

@@ -132,7 +132,7 @@ class ExerciseTracker():
 
     def __init__(self, sets, jj, sq, cu, menu):
         self.total_sets = sets
-        self.reps = [(jj, 20), (sq, 30), (cu, 35)]
+        self.reps = [(jj, 20), (sq, 35), (cu, 45)]
         self.current_set = 0
         self.progress = 0
         self.current_rep = [0,0,0]
